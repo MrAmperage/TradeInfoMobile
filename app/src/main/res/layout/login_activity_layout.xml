@@ -3,22 +3,25 @@
     android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/BackgroundColor">
 <LinearLayout android:layout_gravity="center"
     android:layout_width="170dp"
-    android:layout_height="wrap_content"
+    android:layout_height="135dp"
     android:orientation="vertical"
     >
     <EditText
+
+        android:textColorHint="@color/white"
         android:hint="@string/LoginInputPlaceholder"
         android:inputType="text"
+        android:textColor="@color/white"
         android:layout_width="170dp"
-        android:background="@color/white"
-        android:layout_height="30dp"/>
+        android:layout_height="45dp"/>
     <EditText
+        android:textColorHint="@color/white"
         android:layout_marginTop="5dp"
+        android:textColor="@color/white"
         android:hint="@string/PasswordInputPlaceholder"
         android:inputType="textPassword"
-        android:background="@color/white"
         android:layout_width="170dp"
-        android:layout_height="30dp"/>
+        android:layout_height="45dp"/>
     <Button
         android:textColor="@color/white"
         android:layout_width="170dp"

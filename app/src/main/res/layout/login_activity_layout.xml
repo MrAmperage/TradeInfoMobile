@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-<TextView
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/BackgroundColor">
+<LinearLayout android:layout_gravity="center"
+    android:layout_width="170dp"
     android:layout_height="wrap_content"
-    android:text="Тестовое активити." android:layout_gravity="center"/>
+    android:orientation="vertical"
+    >
+    <EditText
+        android:hint="@string/LoginInputPlaceholder"
+        android:inputType="text"
+        android:layout_width="170dp"
+        android:background="@color/white"
+        android:layout_height="30dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="@string/PasswordInputPlaceholder"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:layout_width="170dp"
+        android:layout_height="30dp"/>
+    <Button
+        android:textColor="@color/white"
+        android:layout_width="170dp"
+        android:layout_height="45dp" android:backgroundTint="@color/PrimaryColor" android:text="@string/LoginButton" />
+</LinearLayout>
 </FrameLayout>
